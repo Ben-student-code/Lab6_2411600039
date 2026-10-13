@@ -53,6 +53,8 @@ class WorkoutController extends Controller
     }
 
     /**
+     * 
+     * 
      * Update a workout — only if it belongs to the current user.
      */
     public function update(Request $request, Workout $workout)
